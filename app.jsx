@@ -126,7 +126,7 @@ const EncryptedMessagesApp = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-100 via-white to-cyan-100">
+    <div className="min-h-screen bg-white">
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         <Header />
         <Notification notification={notification} />
