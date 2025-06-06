@@ -8,7 +8,7 @@ const Header = () => (
         <Lock className="w-8 h-8 text-white" />
       </div>
     </div>
-    <h1 className="text-4xl font-bold text-gray-800 mb-2">Mensajes Encriptados</h1>
+    <h1 className="text-4xl font-bold text-gray-800 mb-2">C R Y P T O K E Y</h1>
     <p className="text-gray-700">Escribe y guarda mensajes de forma segura</p>
   </div>
 );

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Send, Lock, Unlock, Eye, EyeOff, MessageSquare, Key } from 'lucide-react';
 import Header from './Header';
 import Tabs from './Tabs';
+import Footer from './Footer';
 import Notification from './Notification';
 import CreateMessage from './CreateMessage';
 import AllMessages from './AllMessages';
@@ -165,6 +166,7 @@ const EncryptedMessagesApp = () => {
             fetchMyMessages={fetchMyMessages}
           />
         )}
+        <Footer />
       </div>
     </div>
   );
