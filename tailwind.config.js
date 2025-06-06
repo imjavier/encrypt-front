@@ -1,11 +1,17 @@
 module.exports = {
   content: [
     './index.html',
-    './app.jsx',
-    './main.jsx',
+    './src/**/*.{js,jsx,ts,tsx}',
+    './*.jsx',
+    './*.js',
     './Header.jsx',
     './Tabs.jsx',
     './Notification.jsx',
+    './CreateMessage.jsx',
+    './AllMessages.jsx',
+    './MyMessages.jsx',
+    './app.jsx',
+    './main.jsx',
   ],
   theme: {
     extend: {
