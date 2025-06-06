@@ -121,13 +121,11 @@ const EncryptedMessagesApp = () => {
       showNotification('Error de conexión al obtener mensajes', 'error');
       setMyMessages([]);
       console.error('Error:', error);
-    } finally {
+    }finally {
       setLoading(false);
     }
-  };
-
-  return (
-    <div className="min-h-screen bg-white">
+  };  return (
+    <div className="min-h-screen bg-gradient-to-r from-purple-50/70 via-fuchsia-50/60 via-pink-50/60 to-purple-50/70 animate-[gradient_8s_ease-in-out_infinite] bg-[size:400%_400%] bg-[position:0%_50%]">
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         <Header />
         <Notification notification={notification} />
